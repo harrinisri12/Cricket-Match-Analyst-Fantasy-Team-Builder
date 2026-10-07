@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cricket Match Analyst &amp; Fantasy Team Builder</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- APPLICATION HEADER -->
+  <header class="app-header">
+    <div class="header-container">
+      <div class="header-brand">
+        <h1 class="brand-title">
+          <span>CRICKET</span>
+          <span>MATCH ANALYST</span>
+        </h1>
+        <div class="brand-subtitle">Fantasy Team Builder &amp; Match Intelligence</div>
+      </div>
+      <nav class="header-nav">
+        <span class="nav-item">ANALYSIS</span>
+        <span class="nav-item">FANTASY XI</span>
+        <span class="nav-item">RULES</span>
+      </nav>
+    </div>
+  </header>
+
+  <!-- MAIN CONTAINER -->
+  <main class="main-container">
+    <!-- MATCH ANALYSIS QUERY SECTION -->
+    <section class="query-section">
+      <div class="section-title-bar">
+        <h2>MATCH ANALYSIS</h2>
+        <span class="section-badge">QUERY WORKSTATION</span>
+      </div>
+      <p class="section-description">
+        Analyze cricket matches, compare players, understand rules, and build fantasy teams.
+      </p>
+
+      <form id="queryForm" class="query-form" onsubmit="return false;">
+        <div class="query-bar">
+          <input 
+            type="text" 
+            id="queryInput" 
+            class="query-input" 
+            placeholder="Build a fantasy XI for CSK vs MI" 
+            autocomplete="off" 
+            spellcheck="false"
+          />
+          <button type="submit" id="analyzeBtn" class="btn-analyze">ANALYZE</button>
+          <button type="button" id="clearBtn" class="btn-clear">CLEAR</button>
+        </div>
+      </form>
+
+      <!-- QUICK QUERIES -->
+      <div class="quick-queries-bar">
+        <span class="quick-label">QUICK QUERIES:</span>
+        <div class="quick-buttons">
+          <button type="button" class="quick-btn" data-query="Build a fantasy XI for CSK vs MI">Fantasy XI</button>
+          <button type="button" class="quick-btn" data-query="Compare Virat Kohli and Shubman Gill">Compare Players</button>
+          <button type="button" class="quick-btn" data-query="Latest injury updates and squad news for CSK vs MI">Match Analysis</button>
+          <button type="button" class="quick-btn" data-query="How does DRS umpire's call work in LBW decisions?">Cricket Rules</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- ANALYSIS RESULT SECTION -->
+    <section class="result-section">
+      <div class="result-title-bar">
+        <h2>ANALYSIS RESULT</h2>
+        <div id="statusBadge" class="status-badge status-ready">READY</div>
+      </div>
+
+      <!-- EMPTY STATE -->
+      <div id="emptyState" class="result-view-state result-empty">
+        <div class="empty-box">
+          <div class="empty-headline">WORKSTATION READY</div>
+          <p class="empty-text">Enter a cricket query to begin analysis.</p>
+          <div class="empty-subtext">Supports Fantasy XI generation, Head-to-Head player comparisons, ICC rule lookups, and verified team news.</div>
+        </div>
+      </div>
+
+      <!-- LOADING STATE -->
+      <div id="loadingState" class="result-view-state result-loading" style="display: none;">
+        <div class="loading-box">
+          <div class="loading-headline">ANALYZING...</div>
+          <p class="loading-subtext" id="loadingMessage">Executing multi-agent cricket intelligence pipeline...</p>
+        </div>
+      </div>
+
+      <!-- ERROR STATE -->
+      <div id="errorState" class="result-view-state result-error" style="display: none;">
+        <div class="error-box">
+          <div class="error-headline">ANALYSIS FAILED</div>
+          <p class="error-text">Unable to retrieve the analysis.</p>
+          <p class="error-subtext">Please check the backend connection and try again.</p>
+          <button type="button" id="retryBtn" class="btn-retry">RETRY</button>
+        </div>
+      </div>
+
+      <!-- OUTPUT CONTAINER -->
+      <div id="outputContainer" class="result-output" style="display: none;">
+        <!-- Dynamic content rendered by script.js -->
+      </div>
+    </section>
+  </main>
+
+  <!-- APPLICATION FOOTER -->
+  <footer class="app-footer">
+    <div class="footer-container">
+      <div class="footer-text">
+        CRICKET MATCH ANALYST &amp; FANTASY TEAM BUILDER &mdash; POWERED BY MCP &amp; LANGGRAPH
+      </div>
+      <div class="footer-disclaimer">
+        Analytical recommendations are strictly for informational and simulation purposes. No statistics or player credits are fabricated.
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

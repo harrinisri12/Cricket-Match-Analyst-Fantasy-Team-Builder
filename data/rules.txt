@@ -1,0 +1,118 @@
+=== SECTION: DRS & UMPIRE'S CALL ===
+Rule: Decision Review System (DRS) and Umpire's Call
+Details:
+- Each team in T20 / IPL is allocated 2 unsuccessful DRS reviews per innings.
+- If a review results in "Umpire's Call", the on-field decision stands, but the reviewing team retains their review (it does not count as an unsuccessful review).
+- For LBW decisions, ball-tracking evaluates three parameters:
+  1. Pitching: More than 50% of the ball must pitch in-line or outside off-stump (pitching outside leg is not out).
+  2. Impact: Where the ball first strikes the batter's pad. If outside the line of off-stump and no shot is played, it can be out. Otherwise, at least 50% of the ball must impact in line with the stumps to overturn an on-field Not Out. If 50% or less is in line, it is Umpire's Call.
+  3. Wickets (Hitting the Stumps): The predicted path of the ball hitting the stumps. At least 50% of the ball must hit the zone between outer edges of outer stumps and below the top of the bails. If less than 50% hits the stumps or bails, it is ruled "Umpire's Call", meaning the original on-field ruling stands.
+Example: If the on-field umpire gives Not Out for LBW, and ball tracking shows the ball is clipping the bails (<50%), the third umpire declares "Umpire's Call - Not Out" and the team retains the review.
+
+=== SECTION: LBW (LEG BEFORE WICKET) ===
+Rule: Law 36 - Leg Before Wicket
+Details:
+- A batter is Out LBW if the ball is not a No Ball, pitches in line or outside off stump (never outside leg stump), makes its first contact with the batter's person before touching the bat/glove, and in the umpire's judgment would have gone on to hit the stumps.
+- If the batter attempts a genuine shot, the impact must occur between wicket and wicket (in-line).
+- If no shot is played (padding away), impact outside off-stump is eligible to be given Out provided the ball would hit the stumps.
+- If the ball touches the bat or glove holding the bat before or simultaneously with the pad, the batter is Not Out.
+
+=== SECTION: NO-BALL & FREE HIT ===
+Rule: Law 21 - No Ball and Free Hit Regulations
+Details:
+- Front-foot No Ball: The bowler's front foot on landing must have some part behind the popping crease (grounded or in the air).
+- Height No Ball (Beamer): Any ball delivered without bouncing that passes the striker above waist height at the popping crease is an immediate No Ball.
+- In T20 and IPL cricket, every No Ball (front foot, height, field placement) results in a penalty of 1 extra run and awards a "Free Hit" on the immediate next delivery.
+- On a Free Hit delivery, the batter cannot be dismissed by normal bowling methods (bowled, caught, LBW, stumped). The batter can only be dismissed via: Run Out, Obstructing the Field, or Hit the Ball Twice.
+- Field changes are NOT permitted for a Free Hit unless there is a change of strike.
+
+=== SECTION: WIDE BALL ===
+Rule: Law 22 - Wide Ball Regulations
+Details:
+- A ball is called Wide if it passes so wide of the striker as to be out of reach of a normal cricket stroke from the batter's normal stance.
+- In T20 / IPL, strict wide guidelines apply on both off-side and leg-side.
+- Any ball passing down the leg side past the batter's pads without making contact is called Wide.
+- In IPL, teams can use DRS to review Wide and No Ball calls made by on-field umpires.
+
+=== SECTION: POWERPLAY RULES ===
+Rule: T20 / IPL Powerplay Regulations
+Details:
+- In a standard 20-over T20 match, the first 6 overs (Overs 1 to 6) constitute the mandatory fielding restriction period (Powerplay).
+- During the Powerplay, a maximum of 2 fielders are allowed outside the 30-yard inner circle.
+- After the Powerplay (Overs 7 to 20), a maximum of 5 fielders are permitted outside the 30-yard circle.
+- Over-rate penalty: If the fielding team fails to bowl the first ball of the 20th over by the scheduled cut-off time, only 4 fielders (instead of 5) are allowed outside the 30-yard circle for the remainder of the innings.
+
+=== SECTION: SUPER OVER TIE-BREAKER ===
+Rule: Super Over Tie-Breaker Procedure
+Details:
+- If a T20 match ends in a tie (identical runs scored by both teams at the end of their allotted overs), a Super Over (one over per side) is played to determine the winner.
+- Each team nominates 3 batsmen and 1 bowler. An innings ends if 2 wickets fall or 6 legal deliveries are bowled.
+- If the Super Over also ends in a tie, consecutive Super Overs will be played until a winner is decided.
+- The team that batted second in the main match bats first in the first Super Over.
+
+=== SECTION: IPL SPECIFIC PLAYING CONDITIONS ===
+Rule: IPL Impact Player, Bouncer, and Smart Replay Regulations
+Details:
+- Impact Player Rule: Each team names 5 substitutes at the toss along with the starting XI. One substitute can be introduced as an Impact Player at any time during the match (at the start of innings, fall of wicket, or end of over) and can bat and bowl their full quota of 4 overs.
+- Two Bouncers Rule: In IPL, bowlers are allowed to bowl up to 2 bouncers (short-pitched balls above shoulder height of the batter standing upright) per over. A 3rd bouncer in the same over is signaled as a No Ball.
+- Smart Replay System: Split-screen views and high-speed camera direct feeds provided to the TV Umpire for fast, high-fidelity reviews.
+
+=== SECTION: PLAYER ROLE DEFINITIONS ===
+Rule: Cricket Player Roles and Tactical Responsibilities
+Details:
+- Wicket-Keeper (WK): Specialist stationed behind the stumps to collect deliveries, execute stumpings, and take catches. Also functions as a top, middle, or lower-order batsman.
+- Top-Order Batsman (BAT): Batters occupying positions 1 to 3 (Openers and One-down) who specialize in exploiting the Powerplay restrictions and setting the innings foundation.
+- Middle-Order Batsman (BAT): Batters playing at positions 4 to 6 who manage the middle overs against spin and pace, anchor collapses, or accelerate scoring rates.
+- Finisher (BAT): Specialist lower-middle order batsman (positions 5 to 7) with high boundary percentage and power-hitting capability in death overs.
+- All-Rounder (AR): Multi-dimensional player proficient in both batting and bowling (pace or spin), offering crucial balance and flexibility to team composition.
+- Fast / Pace Bowler (BOWL): Specialist bowler utilizing seam, swing, pace, and bounce with the new ball in Powerplay and yorkers/cutters in death overs.
+- Spin Bowler (BOWL): Specialist bowler utilizing wrist spin (leg break, googly) or finger spin (off break) to extract turn, bounce, and drift in middle overs.
+
+=== SECTION: BASIC CRICKET TERMINOLOGY ===
+Rule: Standard Cricket Terminology & Metrics
+Details:
+- Strike Rate (Batting): Average number of runs scored per 100 balls faced (Runs / Balls * 100).
+- Economy Rate (Bowling): Average number of runs conceded per over bowled (Runs / Overs).
+- Bowling Strike Rate: Average number of balls bowled per wicket taken (Balls / Wickets).
+- Dot Ball: A delivery from which zero runs or extras are scored.
+- Maiden Over: An over in which zero runs are conceded.
+- Powerplay: Specific fielding restriction overs at the start of an innings.
+- Death Overs: The final 4-5 overs of a limited-overs innings characterized by aggressive batting and defensive bowling (yorkers, slower balls).
+- Crease: Lines marked on the pitch (Popping Crease, Bowling Crease, Return Crease) defining legal positions for bowler delivery and batter safety.
+
+=== SECTION: FANTASY CRICKET SCORING RULES ===
+Rule: Standard Fantasy Cricket Scoring System and Lineup Constraints
+Details:
+1. Batting Points:
+   - Run scored: +1 pt
+   - Boundary (Four) bonus: +1 pt
+   - Six bonus: +2 pts
+   - 30-run bonus: +4 pts
+   - Half-century (50 runs) bonus: +8 pts
+   - Century (100 runs) bonus: +16 pts
+   - Duck penalty (Out for 0, Batsman/WK/All-Rounder): -2 pts
+   - Strike Rate bonuses (min 10 balls faced): >170 SR (+6 pts), 150-170 SR (+4 pts), 130-149.9 SR (+2 pts); Strike Rate penalty: <70 SR (-2 pts).
+2. Bowling Points:
+   - Wicket (excluding run out): +25 pts
+   - LBW / Bowled bonus: +8 pts
+   - 3-wicket bonus: +4 pts
+   - 4-wicket bonus: +8 pts
+   - 5-wicket bonus: +16 pts
+   - Maiden over: +12 pts
+   - Economy Rate bonuses (min 2 overs bowled): <5.0 RPO (+6 pts), 5.0-5.99 RPO (+4 pts), 6.0-7.0 RPO (+2 pts); Economy penalties: 10-11 RPO (-2 pts), >11 RPO (-4 pts).
+3. Fielding Points:
+   - Catch: +8 pts (3-catch bonus: +4 pts)
+   - Stumping: +12 pts
+   - Direct Hit Run Out: +12 pts
+   - Thrower / Catcher Run Out: +6 pts each
+4. Multipliers:
+   - Captain (C): 2.0x fantasy points
+   - Vice-Captain (VC): 1.5x fantasy points
+5. Team Constraints:
+   - Total 11 players.
+   - Budget: Maximum 100 credits.
+   - Minimum 1 and Maximum 4 Wicket-Keepers (WK).
+   - Minimum 3 and Maximum 6 Batsmen (BAT).
+   - Minimum 1 and Maximum 4 All-Rounders (AR).
+   - Minimum 3 and Maximum 6 Bowlers (BOWL).
+   - Maximum 7 players from any single real-life team.
